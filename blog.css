@@ -1,0 +1,143 @@
+body {
+background: url(images/background.jpg) no-repeat center center fixed;
+background-size: cover;	
+font-family: 'Roboto', sans-serif;	
+zoom:50%;
+}
+
+h1{
+font-weight: 20;
+text-align: center;
+font-size: 4.0em;
+color: black;
+font-family:Tahoma, Geneva, sans-serif; 
+}
+
+h2{
+font-weight: 20;
+text-align: center;
+font-size: 1.2em;
+color: black;
+}
+
+#headline { 
+font-weight: bold; 
+font-size: 1.6em;
+padding-top:20px;
+padding-bottom:10px;
+}
+
+#date{ 
+font-size: 1em;
+padding-top:5px;
+padding-bottom:5px;
+}
+
+#time{ 
+font-size: 1em;
+padding-top:5px;
+padding-bottom:5px;
+
+}
+
+#author{ 
+font-size: 1.2em;
+padding-top:10px;
+padding-bottom:10px;
+}
+
+#post { 
+font-size: 1.3em;
+padding-top:20px;
+padding-bottom:20px;
+}
+
+#tags{  
+font-size: 1.1em;
+font-style: italic;
+color:#6E6E6E;
+}
+
+#blogposts{
+padding: 50px;
+width: 1550px;
+height: 200px;
+background-color: #E6E6E6;
+margin: 0 auto 15px;
+border-radius: 10px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);	
+}
+
+hr{
+width:1300px;	
+height: 12px; 
+border: 0; 
+box-shadow: 
+inset 0 12px 12px -12px rgba(0,0,0,0.5); 
+}
+
+div.navigation{
+margin: 0.5px;
+width: auto;
+height: 60px;
+padding: 10px 10px 10px;
+text-align: center; 
+}
+ 
+#navi{
+padding: 0;
+padding-bottom: 10px;
+width: 1300px;
+height: 60px;
+background-color: #B40404;
+margin: 0 auto 15px;
+border-radius: 10px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);	
+text-align: center;
+}
+ 
+#navi ul{
+margin: 10px;
+padding: 0px;
+}
+ 
+#navi ul li{
+font-size: 45px;
+list-style: none;
+padding: auto;
+display: inline-block;
+list-style-type: none;
+}
+ 
+#navi ul li a{
+text-decoration: none;
+float: left;
+display: block;
+padding: 10px 20px;
+color: black;
+}
+ 
+#navi ul li a:hover{
+color: white;
+}
+
+#about {
+font-size: 1.3em;
+padding-top: 20px;
+margin-left: 400px;
+margin-right: 500px;
+padding-bottom: 20px;
+text-align: left;
+}
+
+#aboutme{
+padding-top: 10px;
+padding-bottom: 0.5px;
+font-weight: 20;	
+font-size: 1.6em;
+color: black;
+margin-left: 400px;
+text-align: left;
+}
+
+

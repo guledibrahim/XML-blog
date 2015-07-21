@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:element name="blog">
+		<xsd:complexType>
+			<xsd:sequence> 	
+			
+			
+			<xsd:element name="blogitems" minOccurs="1" maxOccurs="unbounded">
+			       	<xsd:complexType>
+			       			<xsd:sequence> 
+	
+			       			<xsd:element name="headline" minOccurs="1" maxOccurs="1">
+				    				<xsd:simpleType>
+						   					 <xsd:restriction base="xsd:string">	
+                              					<xsd:maxLength value="100"/>
+						    				</xsd:restriction>
+			    					</xsd:simpleType>
+			    			</xsd:element<name />
+			       						       			
+			       				
+			<xsd:element name="date" minOccurs="1" maxOccurs="1">
+			       <xsd:simpleType>
+                      <xsd:restriction base="xsd:string">
+                        <xsd:pattern value="\d{2}-\d{2}-\d{4}"/>
+                      </xsd:restriction>
+                </xsd:simpleType>
+                </xsd:element>
+			       			      					       			
+			       			                           
+			<xsd:element name="time" minOccurs="1" maxOccurs="1">
+			     <xsd:simpleType>
+                     <xsd:restriction base="xsd:string">
+                       <xsd:pattern value="\d{2}:\d{2}"/>
+                     </xsd:restriction>
+                 </xsd:simpleType>
+                 </xsd:element>
+                 
+                 
+			<xsd:element name="author" minOccurs="1" maxOccurs="1" fixed="By Guled Ibrahim"/>	
+
+			<xsd:element name="image" minOccurs="0" maxOccurs="1"/>	
+		  		
+		    		      
+			<xsd:element name="post" minOccurs="1" maxOccurs="1">
+			    <xsd:simpleType>
+						    <xsd:restriction base="xsd:string">	
+                              <xsd:maxLength value="1000"/>
+						    </xsd:restriction>
+			    </xsd:simpleType>
+			   </xsd:element>
+			   			   					 			 
+
+			 
+			 <xsd:element name="source"  minOccurs="0" maxOccurs="1"/>
+			
+						 <xsd:element name="tags" minOccurs="1" maxOccurs="1">
+					<xsd:simpleType>
+						  <xsd:restriction base="xsd:string">
+						  <xsd:maxLength value="50"/>
+						  </xsd:restriction>
+					</xsd:simpleType>
+			 </xsd:element>
+			
+
+
+			       			</xsd:sequence> 
+					</xsd:complexType>
+			</xsd:element>
+										 
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>		

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!ELEMENT blog (blogitems+)>
+<!ELEMENT blogitems (headline,date,time,author,image?,post,source?,tags?)>
+<!ELEMENT headline (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT time (#PCDATA)>
+<!ELEMENT author (#PCDATA)>	
+<!ELEMENT image (#PCDATA)>	
+<!ELEMENT post (#PCDATA)>
+<!ELEMENT source (#PCDATA)>
+<!ELEMENT tags (#PCDATA)>
